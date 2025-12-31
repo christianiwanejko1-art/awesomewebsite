@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: "Roboto";
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header {
+    background-color: #1F2937;
+    height: 60vh;
+    width: 100%;
+}
+
+#mainheader {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    padding: 24px 0;
+}
+
+#mainheader nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex: 3;
+}
+
+nav a {
+    padding: 0 12px;
+}
+
+#mainheader h1{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    height: 100%;
+}
+
+
+#webBanner {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: red;
+}
+
+#webBannerLeft {
+    width: 100%;
+    height: 100%;
+}
